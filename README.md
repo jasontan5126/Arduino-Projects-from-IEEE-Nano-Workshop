@@ -12,6 +12,7 @@
           -> Example song here: Despacito
                =>Copy-paste into your code and call Despacito() in loop() to use!
           -> No experience with music? No problem. Here are some songs with labelled notes.
+       
        **Part 2 - Interface**
           -> Implement the potentiometer interface.
           -> Depending on where the dial is turned, a different song will play when you press RESET.
