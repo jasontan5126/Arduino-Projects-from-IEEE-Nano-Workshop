@@ -13,8 +13,14 @@
                =>Copy-paste into your code and call Despacito() in loop() to use!
           -> No experience with music? No problem. Here are some songs with labelled notes.
        **Part 2 - Interface**
+          -> Implement the potentiometer interface.
+          -> Depending on where the dial is turned, a different song will play when you press RESET.
+
+          -> Be able to switch between at least 3 songs.
+               => This means you will have to add more music!
+          -> You will need to use several if statements.
      
-          ![image](https://user-images.githubusercontent.com/59143666/135891122-efcad155-5698-41e5-a29d-7911f479dab1.png)
+          
 
 
         
