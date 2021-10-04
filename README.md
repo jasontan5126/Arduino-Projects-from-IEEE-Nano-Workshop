@@ -6,7 +6,8 @@
  -> Print the value being read from the potentiometer to your Serial monitor
  
 **Project 2 (Digital vs. Analog, and PWM):**  
-       **Part 1 - Sound**
+      
+      **Part 1 - Sound**
           -> Write a song (minimum 10 notes) using play( ) and play it through your speaker.
           -> Get creative!
           -> Example song here: Despacito
