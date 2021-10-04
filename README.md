@@ -13,7 +13,8 @@
                =>Copy-paste into your code and call Despacito() in loop() to use!
           -> No experience with music? No problem. Here are some songs with labelled notes.
        **Part 2 - Interface**
-          -> ![image](https://user-images.githubusercontent.com/59143666/135891018-6ec8536c-601d-412f-b887-613be3d8d76d.png)
+     
+          ![image](https://user-images.githubusercontent.com/59143666/135891018-6ec8536c-601d-412f-b887-613be3d8d76d.png)
 
         
  
