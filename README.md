@@ -24,9 +24,10 @@
  **Project 3 - (Distance Sensor):** 
   
        **Overview**
-          -> Using the Arduino, LEDs, IR Emitters, and IR phototransistors, make a Distance Sensor!
+          -> Using Arduino, LEDs, IR Emitters, and IR phototransistors, make a Distance Sensor!
                => The closer an object is to the sensor, the brighter the LED should be
-               => We can control LED brightness with PWM (Pulse width modulation: Let you change the duty cycle and gives you an average voltage between 0 to 5V)
+               => We can control LED brightness with PWM (Pulse width modulation: Let you change the duty cycle 
+                  and gives you an average voltage between 0 to 5V)
        
  
 
