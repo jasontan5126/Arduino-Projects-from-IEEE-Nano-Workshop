@@ -21,11 +21,11 @@
           -> Be able to switch between at least 3 songs.
                => This means you will have to add more music!
           -> You will need to use several if statements.
- 
-**Project 3 - (Distance Sensor):**  
+ **Project 3 - (Distance Sensor):**  
        -> Using ythe Arduino, LEDs, IR Emitters, and IR phototransistors, make a Distance Sensor!
                => The closer an object is to the sensor, the brighter the LED should be
                => We can control LED brightness with PWM (Pulse width modulation: Let you change the duty cycle and gives you an average voltage between 0 to 5V)
+ 
 
  
 **Project 4 ():**  
