@@ -103,7 +103,7 @@
 			registered. Below is the basic circuit for button debouncing:
 			
 			
-
+			![unnamed](https://user-images.githubusercontent.com/59143666/138794166-0a2dcd7c-d9ac-45c1-a259-ce2a7c5cfcbc.png)
 			
 			
 
