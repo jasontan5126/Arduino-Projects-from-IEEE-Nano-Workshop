@@ -1,6 +1,5 @@
 # Arduino-Projects-from-IEEE-Nano-Workshop
 
-![unnamed](https://user-images.githubusercontent.com/59143666/138794166-0a2dcd7c-d9ac-45c1-a259-ce2a7c5cfcbc.png)
 
 **Project 1 (Potentiometer Blink):**  
  -> Create a blinking LED with its blinking rate controlled by a potentiometer. 
@@ -105,7 +104,7 @@
 			registered. Below is the basic circuit for button debouncing:
 			
 			
-			
+			![unnamed](https://user-images.githubusercontent.com/59143666/138794166-0a2dcd7c-d9ac-45c1-a259-ce2a7c5cfcbc.png)
 
 			Vout is the voltage read by the microcontroller input pin, and Vdd is +5V. Use a 
 			10k resistor and a 100nF capacitor for your debouncing circuit, so that you achieve
