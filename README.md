@@ -1,5 +1,7 @@
 # Arduino-Projects-from-IEEE-Nano-Workshop
 
+![unnamed](https://user-images.githubusercontent.com/59143666/138794166-0a2dcd7c-d9ac-45c1-a259-ce2a7c5cfcbc.png)
+
 **Project 1 (Potentiometer Blink):**  
  -> Create a blinking LED with its blinking rate controlled by a potentiometer. 
  
@@ -102,8 +104,6 @@
 			will be after the button has finished bouncing, such that only one press will be 
 			registered. Below is the basic circuit for button debouncing:
 			
-			
-			![unnamed](https://user-images.githubusercontent.com/59143666/138794166-0a2dcd7c-d9ac-45c1-a259-ce2a7c5cfcbc.png)
 			
 			
 
