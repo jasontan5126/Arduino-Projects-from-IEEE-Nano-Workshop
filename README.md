@@ -86,8 +86,6 @@
 		output ~5V when you write HIGH.
 
 
-
-
 		Carduino: 
 		Your Carduino will have 2 push button inputs, one representing the gas pedal and 
 		one representing your brake. If the Green Light is flashed, you’ll press on the 
@@ -103,6 +101,9 @@
 			discharged over time. If the capacitor’s value has been appropriately chosen, this
 			will be after the button has finished bouncing, such that only one press will be 
 			registered. Below is the basic circuit for button debouncing:
+			
+			![unnamed](https://user-images.githubusercontent.com/59143666/138793786-779c08be-4167-41e6-b88d-0618c93db687.png)
+
 			
 			
 
