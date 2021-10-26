@@ -34,7 +34,7 @@
  
 
  
-**Project 4 (Serial Communication):**  
+**Project 4 (Serial Communication: My Arduino Nano (Transmitter & Receiver) to Xiang Feng Arduino Nano(Receiver & Transmitter):**  
 
         **Overview**
           -> In this project, you will be implementing a 2-Arduino game called Red Light, Green Light. 
