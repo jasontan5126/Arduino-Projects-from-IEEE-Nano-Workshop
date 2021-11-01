@@ -37,105 +37,43 @@ void loop() {
 
 //Transmit the specific character data to the other LED to tell that LED to light up
 void transmitter(){ 
-//while(digitalRead(INPUTPIN1) == LOW && digitalRead(INPUTPIN2) == LOW){
   
-//}
-
   //To check whether one input pin is pressed
   if(digitalRead(INPUTPIN1) == LOW){
     Serial.write(byteSendData);
-  //  Serial.print("Sent data 1");
   }
  
   else if(digitalRead(INPUTPIN2) == LOW){
     Serial.write(byteSendData1);
-  //  Serial.print("Sent data 2");
   }
 
- delay(150);
-  //Add a 1 second delay
+ delay(150);      //Add a 0.15 second delay to resolve debouncing issue on pushbutton
 }
 
 
 //Receives communication from the transmitter
 void receiver(){
   if(Serial.available() > 0){
-    readTransmitterData = Serial.read();
+    readTransmitterData = Serial.read();            //Read the data from the receiver of another Arduino
 
-    //Means that you didn't pressed the wrong pushbutton that corresponds to the LED being light up at the receiver
+    //Means that you didn't pressed the wrong pushbutton that corresponds to the LED being light up at the receiver which will blink white LED
     if(readTransmitterData == 'C'){   
-   //   Serial.print("c");
       pointCounter += 100;   
       digitalWrite(OUTPUTPIN, HIGH);
-      delay(100);  //0.3 seconds
+      delay(100);  //0.1 seconds
       digitalWrite(OUTPUTPIN, LOW);
-      delay(100);  //0.3 seconds
+      delay(100);  //0.1 seconds
     }
 
-    //Means that you pressed the wrong pushbutton that corresponds to the LED being light up at the receiver
+    //Means that you pressed the wrong pushbutton that corresponds to the LED being light up at the receiver, the white LED will stay on for 5 seconds
     else if(readTransmitterData == 'F'){
- //     Serial.print("f");
       pointCounter = 0;
       digitalWrite(OUTPUTPIN, HIGH);
       delay(5000);   //Wait 5 seconds
        digitalWrite(OUTPUTPIN, LOW);
-      delay(100);  //Wait 0.5 seconds
+      delay(100);  //Wait 0.1 seconds
     }
   }
   else{
-    //Serial.println("no data available to read");
   }  
 }
-  
-
-  
-  
-/*
-  if(byteRead == 1){
-    digitalWrite()
-  }
-  else if(byteRead == 2){
-    digitalWrite()
-  }
-  else if (byteRead == 3){
-    digitalWrite(OUTPUTPIN, HIGH);
-    delay(5000);
-  }
-*/
-  /*
-   Echo the value that was read back to the serial port
-   */
-//   Serial.write(byteRead);
-  // put your main code here, to run repeatedly:
-
-
-
-/*
-//code for the receiver arduino:
-void loop() {
-  if(Serial.available() > 0){
-    byteRead = Serial.read();
-    if(byteRead == 'A'){
-      Serial.println("A has been read!");
-      digitalWrite(LEDPIN, HIGH);
-    }
-    else if(byteRead == 'B'){
-      Serial.println("B has been read!");
-      digitalWrite(LEDPIN, LOW);
-    }
-  }
-  else{
-    Serial.println("no data available to read");
-  }
-}
-*/
-
-/*
-//code for the transmitter:
-void loop(){
-  Serial.write('A');
-  delay(500);
-  Serial.write('B');
-  delay(500);
-}
-*/
