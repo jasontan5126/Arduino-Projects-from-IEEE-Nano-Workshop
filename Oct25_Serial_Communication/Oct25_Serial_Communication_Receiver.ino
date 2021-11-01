@@ -1,3 +1,5 @@
+//Created by XiangFeng
+
 #define LEDGreen 11
 #define LEDRed 12
 int randNumber;
@@ -32,18 +34,15 @@ void loop(){
     // check if button press is correct
     if(randNumber == 0 && byteRead == 'r'){
        Serial.write('F');
-      // Serial.println("\nthe first r was read");
     } else if (randNumber == 0 && byteRead == 'g'){
        Serial.write('C');
 
-      // Serial.println("\nthe second g was read");
     } else if (randNumber == 1 && byteRead == 'r'){
       Serial.write('C');
       
        //Serial.println("\nthe third r was read");
     } else if (randNumber == 1 && byteRead ==  'g'){
       Serial.write('F');
-       //Serial.println("\nthe fourth g was read");
     }
     digitalWrite(LEDGreen, LOW);
     digitalWrite(LEDRed, LOW);
@@ -52,7 +51,6 @@ void loop(){
     
   }
   else{
-    //Serial.println("no data available to read");
   }
   
 }
